@@ -9,6 +9,11 @@ object-fit: cover;
     width: 400px;
     object-fit: cover;
     }
+.background{
+    background-color: #00bdc2;
+    font-family: Helvetica;
+}    
+
 
     
 
