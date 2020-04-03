@@ -11,7 +11,7 @@ console.log(resultArr);
 //Code for the cards//
 let hiltonBrighton = {
     cardTitle:'Hilton Brighton',
-    text: "Set on the vibrant Brighton seafront, Hilton Brighton Metropole perfectly captures the character of this much-loved city while retaining Victorian elegance and charm. From our stylish dining venues to the modern health club facilities, we provide the perfect base from which to explore Brighton's culture and diversity. Even with contemporary touches throughout the hotel, the heritage and character of our 125 year history shines brightly through.",
+    text: "Set on the vibrant Brighton seafront, Hilton Brighton Metropole perfectly captures the character of this much-loved city while retaining Victorian elegance and charm.",
     image: 'https://www3.hilton.com/resources/media/hi/BSHMETW/en_US/img/shared/full_page_image_gallery/main/HL_extnight1_1270x560_FitToBoxSmallDimension_Center.jpg',
     button: 'https://www3.hilton.com/en/hotels/united-kingdom/hilton-brighton-metropole-BSHMETW/index.html',
     tags:['beach','drinking', 'relaxing'],
