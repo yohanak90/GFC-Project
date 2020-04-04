@@ -10,6 +10,11 @@ object-fit: cover;
     object-fit: cover;
 }
 
+h5{
+    font-family: Helvetica;
+    color: rgb(194, 74, 0);
+}
+
 /** Action for image clicking **/
 
 .imageset-1:active {
