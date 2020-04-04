@@ -7,18 +7,22 @@ const relaxing = document.getElementById('relaxing')
 
 beach.addEventListener(`click`, function() {
     imageSelected(beach);
+    beach.classList.add("clicked");
 });
 
 countryside.addEventListener(`click`, function() {
     imageSelected(countryside);
+    countryside.classList.add("clicked");
 });
 
 drinking.addEventListener(`click`, function() {
     imageSelected(drinking);
+    drinking.classList.add("clicked");
 });
 
 relaxing.addEventListener(`click`, function() {
     imageSelected(relaxing);
+    relaxing.classList.add("clicked");
 });
 
 
