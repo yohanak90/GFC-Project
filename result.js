@@ -40,7 +40,7 @@ let viceroyAnguilla= {
     text: "Treat your team to the Caribbean and check in at the Viceroy Anguilla Resort where contemporary design meets earthy accents. Outside of the luxurious resort, the 3,200 feet of beach is going to be the real winner.",
     image: 'https://d3emaq2p21aram.cloudfront.net/media/cache/venue_carousel/uploads/2014/08/Aerial-View-of-Sunset-Pool-Deck-II.jpg',
     button: 'https://www.venuereport.com/venue/viceroy-anguilla-resort/',
-    tags: ['beach', 'drinking'],
+    tags: ['beach', 'relaxing'],
 }
 
 
@@ -68,8 +68,42 @@ let clivedenHouse = {
     tags: ['countryside', 'drinking']    
 }
 
+let amangiri= {
+
+    cardTitle:'Amangiri',
+    text: " Disconnect from technology and escape to the mountains of Utah. Amangiri’s beautiful indoor-outdoor design camouflages with its peaceful and natural surroundings. With 600 acres of dramatic landscapes, your employees will be bringing the inspiration of nature back to work. ",
+    image: 'https://www.venuereport.com/media/cache/resolve/venue_roundup_single_image_flex/uploads/+0Regular_Roundup/BucketListCorporate2017/Amangiri-TheSimpleSol-01.jpg',
+    button: ' https://www.venuereport.com/roundups/20-breathtaking-retreats-to-reward-your-company-with/entry/8/',
+    tags: ['countryside', 'relaxing'],
+}
+      
+      
+
+let monarchBeach= {
+
+    cardTitle:' Monarch Beach Resort',
+    text: " If you’re in the mood to party like it’s 2008, look no further than the St. Regis Monarch Beach in Orange County. This is the high-end hotel where AIG reportedly spent over $400,000 on an executive retreat — less than a week after the government’s $85 billion bailout of the company.",
+    image: 'https://d3emaq2p21aram.cloudfront.net/media/cache/venue_carousel/uploads/2014/08/Aerial-View-of-Sunset-Pool-Deck-II.jpg',
+    button: ' https://www.oyster.com/orange-county/hotels/monarch-beach-resort/',
+    tags: ['beach', 'drinking'],
+}
+      
+
+
+let cuillinHills= {
+
+    cardTitle:'Cuillin Hills Hotel',
+    text: "Treat your team to the Caribbean and check in at the Viceroy Anguilla Resort where contemporary design meets earthy accents. Outside of the luxurious resort, the 3,200 feet of beach is going to be the real winner.",
+    image: ' https://r-cf.bstatic.com/images/hotel/max1024x768/113/113771847.jpg',
+    button: ' https://www.tripadvisor.co.uk/Hotel_Review-g551883-d218172-Reviews-Cuillin_Hills_Hotel-Portree_Isle_of_Skye_The_Hebrides_Scotland.html',
+    tags: ['countryside', 'relaxing'],
+}
+
+
+
+
 // Turn Objects into Array
-const cardArr = [hiltonBrighton, polurrianHotel, penallyAbbey, cumberlandLodge, clivedenHouse, villaPunto, viceroyAnguilla];
+const cardArr = [hiltonBrighton, polurrianHotel, penallyAbbey, cumberlandLodge, clivedenHouse, villaPunto, viceroyAnguilla, amangiri, monarchBeach, cuillinHills];
 let cardsHere = document.getElementById('cardsHere')
 
 
