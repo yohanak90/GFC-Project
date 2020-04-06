@@ -14,8 +14,17 @@ let hiltonBrighton = {
     text: "Set on the vibrant Brighton seafront, Hilton Brighton Metropole perfectly captures the character of this much-loved city while retaining Victorian elegance and charm.",
     image: 'https://www3.hilton.com/resources/media/hi/BSHMETW/en_US/img/shared/full_page_image_gallery/main/HL_extnight1_1270x560_FitToBoxSmallDimension_Center.jpg',
     button: 'https://www3.hilton.com/en/hotels/united-kingdom/hilton-brighton-metropole-BSHMETW/index.html',
-    tags:['beach','drinking', 'relaxing'],
+    tags:['beach','drinking'],
 }
+
+let villaPunto = {
+    cardTitle:'Villa Punto de Vista',
+    text: "If your team is outdoorsy but also loves luxury, Villa Punta de Vista and it’s 270-degree panoramic bay views is the perfect spot. Treat the company to this 10-bedroom, 2.5 acre rain-forest estate overlooking the Manuel Antonio Bay for adventure and relaxation.",
+    image: 'https://www.venuereport.com/media/cache/resolve/venue_roundup_single_image_flex/uploads/+0Regular_Roundup/BucketListCorporate2017/VillaPuntoDeVista-03.jpg',
+    button: 'https://www.venuereport.com/venue/villa-punto-de-vista/',
+    tags:['beach','relaxing'],
+}
+
 
 let polurrianHotel = {
     cardTitle:'Polurrian Hotel',
@@ -50,7 +59,7 @@ let clivedenHouse = {
 }
 
 // Turn Objects into Array
-const cardArr = [hiltonBrighton, polurrianHotel, penallyAbbey, cumberlandLodge, clivedenHouse];
+const cardArr = [hiltonBrighton, polurrianHotel, penallyAbbey, cumberlandLodge, clivedenHouse, villaPunto];
 let cardsHere = document.getElementById('cardsHere')
 
 
