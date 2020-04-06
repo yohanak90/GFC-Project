@@ -99,11 +99,29 @@ let cuillinHills= {
     tags: ['countryside', 'relaxing'],
 }
 
+let langhamDorset= {
+
+    cardTitle:'Langham Dorset Hotel',
+    text: " The Langham is a warm & friendly non-smoking family run licensed guesthouse B&B ideally situated on the seafront with panoramic views of Weymouth Bay, with twelve double, twin and family rooms, all ensuite, with two rooms on the ground floor ",
+    image: ' https://www.visit-dorset.com/dmsimgs/White_grape_bunch_844640674.JPG',
+    button: ' http://langham-hotel.com/p/welcome.html ',
+    tags: ['countryside', 'drinking'],
+}
+      
+     
+let chudleigh = {
+
+    cardTitle:' Chudleigh',
+    text: " If you’re in the mood to party like it’s 2008, look no further than the St. Regis Monarch Beach in Orange County. This is the high-end hotel where AIG reportedly spent over $400,000 on an executive retreat — less than a week after the government’s $85 billion bailout of the company.",
+    image: ' https://media-cdn.tripadvisor.com/media/photo-o/03/91/7f/5a/chudleigh.jpg',
+    button: ' https://chudleighhotel.com/#',
+    tags: ['countryside', 'drinking'],
+}
 
 
 
 // Turn Objects into Array
-const cardArr = [hiltonBrighton, polurrianHotel, penallyAbbey, cumberlandLodge, clivedenHouse, villaPunto, viceroyAnguilla, amangiri, monarchBeach, cuillinHills];
+const cardArr = [hiltonBrighton, polurrianHotel, penallyAbbey, cumberlandLodge, clivedenHouse, villaPunto, viceroyAnguilla, amangiri, monarchBeach, cuillinHills, langhamDorset, chudleigh];
 let cardsHere = document.getElementById('cardsHere')
 
 
