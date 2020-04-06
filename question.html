@@ -1,61 +1,54 @@
-.imageset-1{
-height: 300px;
-width: 300px;
-object-fit: cover;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.imageset-2{
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" type="text/css" href="./question.css">
+    <link rel="stylesheet" type="text/css" href="./homepage.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
 
-.selection{
-    font-family: Helvetica;
-    color: rgb(194, 74, 0);
-    font-weight: bold;
-    padding: 20px;
-}
+<body class="background">
+    <header class="header">
+        <h1 class="logo">
+            </h1>
+        <ul class="nav">
+            <li><a href="./homepage.html">Home</a></li>
+            <li><a href="./aboutUs.html">About Us</a></li>
+          <li><a href="./question.html">Get Started</a></li>
+        </ul>
+      </header>
 
-/** Action for image clicking **/
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h5 class="selection">Beach</h5>
+                <img src="StockSnap_HUGEjpg.jpg" alt="beach" id="beach" class="imageset-1">
+            </div>
 
-.imageset-1:active {
-    background-color: rgb(255, 85, 0);
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
-    
-.imageset-2:active {
-    background-color: rgb(255, 85, 0);
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
-    
-.clicked{
-    padding:1px;
-    border:3px solid rgb(255, 85, 0);
-}
-    
-.background{
-    background-color: rgb(0, 206, 221);
-    font-family: Helvetica;
-}    
+            <div class="col">
+                <h5 class="selection">Countryside</h5>
+                <img src="Countryside.jpg" alt="countryside" id="countryside" class="imageset-1">
+            </div>
+        </div>
+        <div class="row">
+            <br><br><br>
+            <div class="col">
+                <h5 class="selection">Drinking</h5>
+                <img src="Drinking.jpg" alt="drinking" id="drinking" class="imageset-2" >
+            </div>
+            <div class="col">
+                <h5 class="selection">Relaxing</h5>
+                <img src="Relax.jpg" alt="relaxing" id="relaxing" class="imageset-2">
+            </div>
+        </div>
+    </div>
+    <BR>
+<button type="submit" id="resultbtn" class="btn btn-primary">Go to result page!</button>
+    <script src="./question.js"></script>
+</body>
 
-/** This is for result.js **/
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  .card {
-    height: 450px;
-    padding: 10px;
-    margin: 10px;
-  };
-
-
-
-
-  
+</html>
