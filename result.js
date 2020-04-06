@@ -34,6 +34,16 @@ let polurrianHotel = {
     tags: ['beach', 'drinking']
 }
 
+let viceroyAnguilla= {
+
+    cardTitle:'Viceroy Anguilla Resort',
+    text: "Treat your team to the Caribbean and check in at the Viceroy Anguilla Resort where contemporary design meets earthy accents. Outside of the luxurious resort, the 3,200 feet of beach is going to be the real winner.",
+    image: 'https://d3emaq2p21aram.cloudfront.net/media/cache/venue_carousel/uploads/2014/08/Aerial-View-of-Sunset-Pool-Deck-II.jpg',
+    button: 'https://www.venuereport.com/venue/viceroy-anguilla-resort/',
+    tags: ['beach', 'drinking']
+}
+
+
 let penallyAbbey = {
     cardTitle:'Penally Abbey',
     text: "A cosy hotel overlooking the magical Pembrokeshire coast",
@@ -59,7 +69,7 @@ let clivedenHouse = {
 }
 
 // Turn Objects into Array
-const cardArr = [hiltonBrighton, polurrianHotel, penallyAbbey, cumberlandLodge, clivedenHouse, villaPunto];
+const cardArr = [hiltonBrighton, polurrianHotel, penallyAbbey, cumberlandLodge, clivedenHouse, villaPunto, viceroyAnguilla];
 let cardsHere = document.getElementById('cardsHere')
 
 
