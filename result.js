@@ -170,11 +170,6 @@ for (i of cardArr){
             cardsHere.appendChild(createCard(i));
         }; 
     }
-
-    // if(resultArr === i['tags']){
-    //     console.log(i);
-    //     cardsHere.appendChild(createCard(i));
-    // }; 
 };
 
 
