@@ -31,7 +31,7 @@ let polurrianHotel = {
     text: "Catch a contemporary Cornish retreat in a spectacular clifftop setting – Experience the best of Cornwall",
     image: 'https://www.polurrianhotel.com/uploads/images/our-hotel/_1140/luxury-family-hotels-polurrian-bay-cornwall-hotel-3.jpg',
     button: 'https://www.polurrianhotel.com/',
-    tags: ['beach', 'drinking']
+    tags: ['beach', 'drinking'],
 }
 
 let viceroyAnguilla= {
@@ -40,7 +40,7 @@ let viceroyAnguilla= {
     text: "Treat your team to the Caribbean and check in at the Viceroy Anguilla Resort where contemporary design meets earthy accents. Outside of the luxurious resort, the 3,200 feet of beach is going to be the real winner.",
     image: 'https://d3emaq2p21aram.cloudfront.net/media/cache/venue_carousel/uploads/2014/08/Aerial-View-of-Sunset-Pool-Deck-II.jpg',
     button: 'https://www.venuereport.com/venue/viceroy-anguilla-resort/',
-    tags: ['beach', 'drinking']
+    tags: ['beach', 'drinking'],
 }
 
 
