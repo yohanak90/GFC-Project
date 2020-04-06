@@ -88,10 +88,10 @@ function arrCompare(arr1, arr2) {
 
 
 //Loop to add cards to DOM
-
+console.log(result.length)
 for (i of cardArr){
     
-    if (result.length === 0){
+    if ((resultArr.length === 0) || (resultArr.length === 4) || (result.length === 0)){
         cardsHere.appendChild(createCard(i));
     } else {
         if (arrCompare(resultArr, i['tags']) === true){
