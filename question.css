@@ -1,18 +1,20 @@
 .imageset-1{
-height: 400px;
-width: 400px;
+height: 300px;
+width: 300px;
 object-fit: cover;
 }
 
 .imageset-2{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
 }
 
-h5{
+.selection{
     font-family: Helvetica;
     color: rgb(194, 74, 0);
+    font-weight: bold;
+    padding: 20px;
 }
 
 /** Action for image clicking **/
@@ -35,7 +37,7 @@ h5{
 }
     
 .background{
-    background-color: #00bdc2;
+    background-color: rgb(0, 206, 221);
     font-family: Helvetica;
 }    
 
