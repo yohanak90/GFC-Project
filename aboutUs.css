@@ -557,7 +557,7 @@ float: right;
 
 .accordion {
   background-color: rgb(0, 222, 240);
-  color: rgb(244, 7, 15);
+  color: rgb(200, 37, 67);
   cursor: pointer;
   padding: 5px;
   width: 80%;
@@ -571,14 +571,12 @@ float: right;
   margin-right: auto;
   /* margin-bottom: 5px; */
   /* border-radius: 25px; */
-  
-  
+   
 }
 
+
 /* .active, .accordion:hover { */
-.active {
-  margin-bottom: 0px;
-}
+
 
 /* Style the accordion panel */
 .panel {
@@ -601,6 +599,8 @@ float: right;
   text-align: center;
   color: #c24a00;
 }
+
+
 
 .deloitteLogo {
   display: block;
