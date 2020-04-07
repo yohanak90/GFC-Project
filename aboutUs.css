@@ -263,7 +263,6 @@ float: right;
 
   }
 
-  /*katie work*/
 
   html {
     /* height: 4000px; */
@@ -554,7 +553,7 @@ float: right;
 
 
 
-/*practice*/
+/*accordion*/
 
 .accordion {
   background-color: rgb(0, 222, 240);
@@ -581,7 +580,7 @@ float: right;
   margin-bottom: 0px;
 }
 
-/* Style the accordion panel. Note: hidden by default */
+/* Style the accordion panel */
 .panel {
   width: 80%;
   display: block;
