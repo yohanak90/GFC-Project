@@ -28,7 +28,7 @@ let villaPunto = {
 
 let polurrianHotel = {
     cardTitle:'Polurrian Hotel',
-    text: "Catch a contemporary Cornish retreat in a spectacular clifftop setting – Experience the best of Cornwall",
+    text: "Catch a contemporary Cornish retreat in a spectacular clifftop setting – Experience the best of Cornwall.",
     image: 'https://www.polurrianhotel.com/uploads/images/our-hotel/_1140/luxury-family-hotels-polurrian-bay-cornwall-hotel-3.jpg',
     button: 'https://www.polurrianhotel.com/',
     tags: ['beach', 'drinking'],
@@ -45,7 +45,7 @@ let viceroyAnguilla= {
 
 let penallyAbbey = {
     cardTitle:'Penally Abbey',
-    text: "A cosy hotel overlooking the magical Pembrokeshire coast",
+    text: "A cosy hotel overlooking the magical Pembrokeshire coast.",
     image: 'https://r-cf.bstatic.com/images/hotel/max1024x768/163/163235079.jpg',
     button: 'https://www.penally-abbey.com/',
     tags: ['beach', 'relaxing']
@@ -53,7 +53,7 @@ let penallyAbbey = {
 
 let cumberlandLodge = {
         cardTitle:'Cumberland Lodge',
-        text: "Set in the heart of Queen Elizabeth's grounds, this beautiful location offers to sitmulate the mind through empowering conversation",
+        text: "Set in the heart of Queen Elizabeth's grounds, this beautiful location offers to sitmulate the mind through empowering conversation.",
         image: 'https://www.cumberlandlodge.ac.uk/sites/default/files/public/styles/landscape_for_node_content/public/basic_page/CL%20Aerial%20Shot%202.jpg?itok=2MNBEtrj&c=9c0c4bc44dfd0b47f23ef25f6db4edc3',
         button: 'https://www.cumberlandlodge.ac.uk/',
         tags: ['countryside', 'relaxing']    
@@ -61,7 +61,7 @@ let cumberlandLodge = {
 
 let clivedenHouse = {
     cardTitle:'Cliveden House',
-    text: "Multi-award winning hotel sitting across hundreds of acres of idyllic National Trust parkland",
+    text: "This multi-award-winning retreat can incentivise guests with a wide variety of team-building activities from treasure hunts or murder mystery, to chocolate and cocktail masterclasses.",
     image: 'https://www.thesun.co.uk/wp-content/uploads/2018/11/NINTCHDBPICT000276124302.jpg',
     button: 'https://www.clivedenhouse.co.uk/',
     tags: ['countryside', 'drinking']    
@@ -101,7 +101,7 @@ let cuillinHills= {
 let langhamDorset= {
 
     cardTitle:'Langham Dorset Hotel',
-    text: " The Langham is a warm & friendly non-smoking family run licensed guesthouse B&B ideally situated on the seafront with panoramic views of Weymouth Bay ",
+    text: " The Langham is a warm & friendly non-smoking family run licensed guesthouse B&B ideally situated on the seafront with panoramic views of Weymouth Bay.",
     image: ' https://www.visit-dorset.com/dmsimgs/White_grape_bunch_844640674.JPG',
     button: ' http://langham-hotel.com/p/welcome.html ',
     tags: ['countryside', 'drinking'],
@@ -111,7 +111,7 @@ let langhamDorset= {
 let chudleigh = {
 
     cardTitle:' Chudleigh',
-    text: " Established in 1963, The Chudleigh is a Guest House in Clacton-on-Sea that is full of character and offers a pleasant experience for holidaymakers and professionals alike",
+    text: " Established in 1963, The Chudleigh is a Guest House in Clacton-on-Sea that is full of character and offers a pleasant experience for holidaymakers and professionals alike.",
     image: ' https://thumbnails.trvl-media.com/d7P036VbFgoo8gd-cRaavcueCP8=/773x530/smart/filters:quality(60)/images.trvl-media.com/hotels/3000000/2700000/2695000/2694963/02b7015f_y.jpg',
     button: ' https://chudleighhotel.com/#',
     tags: ['countryside', 'drinking'],
