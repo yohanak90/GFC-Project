@@ -21,12 +21,15 @@
             <li><a href="./question.html">Get Started</a></li>
         </ul>
     </header>
-    <h3 class="selection"> Get Started</h3>
-    <p class="selection">Please select a destination and an activity or none to see all options in the result page.</p>
+    <div class="getStarted">
+        <h3 class="selection"> Get Started</h3>
+        <p class="selection">Please select a destination and an activity or none to see all options in the result page.
+        </p>
+    </div>
 
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col"> 
                 <h5 class="selection">Beach</h5>
                 <img src="StockSnap_HUGEjpg.jpg" alt="beach" id="beach" class="imageset-1">
             </div>
@@ -47,9 +50,37 @@
                 <img src="Relax.jpg" alt="relaxing" id="relaxing" class="imageset-2">
             </div>
         </div>
+    </div> -->
+
+    <div class="container">
+        <div class="box1">
+            <h5 class="selection">Beach</h5>
+            <img src="StockSnap_HUGEjpg.jpg" alt="beach" id="beach" class="imageset-1">
+        </div>
+        <div class="box1">
+            <h5 class="selection">Countryside</h5>
+            <img src="Countryside.jpg" alt="countryside" id="countryside" class="imageset-1">
+        </div>
+        <div class="box1">
+
+            <h5 class="selection">Drinking</h5>
+            <img src="Drinking.jpg" alt="drinking" id="drinking" class="imageset-2">
+        </div>
+        <div class="box1">
+            <h5 class="selection">Relaxing</h5>
+            <img src="Relax.jpg" alt="relaxing" id="relaxing" class="imageset-2">
+        </div>
     </div>
+
+
+
+
+
     <BR>
-    <button type="submit" id="resultbtn" class="btn btn-primary">Go to result page!</button>
+    <div class="toResults">
+        <button type="submit" id="resultbtn" class="btn btn-primary btn-block">Go to result page!</button>
+        <br>
+    </div>
     <script src="./question.js"></script>
 </body>
 
