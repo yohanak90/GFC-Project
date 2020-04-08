@@ -578,7 +578,6 @@ float: right;
 /* .active, .accordion:hover { */
 
 
-/* Style the accordion panel */
 .panel {
   width: 80%;
   display: block;
@@ -593,6 +592,26 @@ float: right;
   margin-bottom: 5px;
   
 }
+
+.accordion:after {
+  content: '\002B';
+  float: right;
+  font-size: 16px;
+  padding-right: 5px;
+  font-weight: bold;
+  color: rgb(200, 37, 67);
+}
+
+.active:after {
+  content: '\2212';
+  float: right;
+  font-size: 16px;
+  padding-right: 5px;
+  font-weight: bold;
+  color: rgb(200, 37, 67);
+}
+/* accord over */
+
 
 .panelText {
   padding-top: 10px;
